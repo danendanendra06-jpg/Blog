@@ -37,7 +37,7 @@ export default async function ArticlePage({ params }) {
               {article.tag}
             </span>
             <h1 className="fw-bold mb-4 display-5">{article.title}</h1>
-            <div className="d-flex justify-content-center align-items-center text-muted small">
+            <div className="d-flex justify-content-center align-items-center text-muted small mb-5">
               <div className="d-flex align-items-center me-4">
                 <div className="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center fw-bold me-2" style={{ width: '32px', height: '32px' }}>
                   TE
@@ -47,6 +47,9 @@ export default async function ArticlePage({ params }) {
               <div className="me-4"><i className="fa-regular fa-clock me-1"></i> {article.readingTime}</div>
               <div><i className="fa-regular fa-calendar me-1"></i> {article.publishDate}</div>
             </div>
+            {article.imageUrl && (
+              <img src={article.imageUrl} alt={article.title} className="img-fluid rounded shadow-sm w-100" style={{ maxHeight: '400px', objectFit: 'cover' }} />
+            )}
           </header>
 
           <div className="article-content">

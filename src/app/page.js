@@ -13,16 +13,23 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section id="home" className="py-5 bg-white border-bottom">
-        <div className="container py-5 text-center">
-          <h1 className="display-4 fw-bold text-dark mb-4">
-            Mastering Code & <span className="text-primary">Mindset</span>
-          </h1>
-          <p className="lead text-muted mx-auto" style={{ maxWidth: '700px' }}>
-            Exploring the vital intersection between ethics in technology, modern industry perspectives, and continuous self-improvement.
-          </p>
-          <div className="mt-5">
-            <a href="#articles" className="btn btn-primary btn-lg px-4 me-3">Read Articles</a>
-            <a href="#about" className="btn btn-outline-secondary btn-lg px-4">Learn More</a>
+        <div className="container py-5">
+          <div className="row align-items-center">
+            <div className="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
+              <h1 className="display-4 fw-bold text-dark mb-4">
+                Mastering Code & <span className="text-primary">Mindset</span>
+              </h1>
+              <p className="lead text-muted mb-5" style={{ maxWidth: '600px' }}>
+                Exploring the vital intersection between ethics in technology, modern industry perspectives, and continuous self-improvement.
+              </p>
+              <div>
+                <a href="#articles" className="btn btn-primary btn-lg px-4 me-3">Read Articles</a>
+                <a href="#about" className="btn btn-outline-secondary btn-lg px-4">Learn More</a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <img src="/images/hero_banner.png" alt="Tech workspace" className="img-fluid rounded shadow" />
+            </div>
           </div>
         </div>
       </section>
@@ -32,11 +39,7 @@ export default function Home() {
         <div className="container py-5">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
-              {/* Replace placeholder with an abstract shape or simple professional div */}
-              <div className="bg-white rounded shadow-sm p-5 text-center h-100 d-flex flex-column justify-content-center border">
-                <i className="fa-solid fa-code text-primary mb-3" style={{ fontSize: '4rem' }}></i>
-                <h3 className="fw-bold">Building with Conscience</h3>
-              </div>
+              <img src="/images/about_illustration.png" alt="About TechEthics" className="img-fluid rounded shadow-sm border" />
             </div>
             <div className="col-lg-6 px-lg-5">
               <h2 className="fw-bold mb-4">The Vision Behind <span className="text-primary">TechEthics</span></h2>
@@ -63,7 +66,8 @@ export default function Home() {
           <div className="row g-4">
             {articles.map((article) => (
               <div className="col-md-4" key={article.id}>
-                <div className="card h-100 border-0 shadow-sm blog-card">
+                <div className="card h-100 border-0 shadow-sm blog-card overflow-hidden">
+                  <img src={article.imageUrl} alt={article.title} className="card-img-top" style={{ height: '200px', objectFit: 'cover' }} />
                   <div className="card-body d-flex flex-column p-4">
                     <span className="badge bg-primary bg-opacity-10 text-primary mb-3 align-self-start px-3 py-2 rounded-pill">
                       {article.tag}
