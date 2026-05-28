@@ -118,38 +118,86 @@ function IndustryPerspectivesContent() {
       </ul>
 
       <h2 id="sustainability" className="mt-5">3. Sustainability and Green Industry</h2>
-      <h3>Context and Background</h3>
-      <p>In contemporary business ethics discourse, corporate responsibility is no longer limited to the pursuit of financial profit alone, but extends to the realms of environmental protection and the well-being of society at large. This is strongly reflected in the concept of sustainability and the shift toward green industry.</p>
-
       <h3>The Business Case and Ethical Considerations</h3>
       <p>Historically, environmental conservation efforts in the industrial sector were often viewed as an additional cost burden. However, the industry’s perspective has changed significantly. An increasing number of companies now treat “sustainability” as a key objective in their strategies and operations to enhance growth and global competitiveness.</p>
       <ul>
           <li>Improve operational efficiency by reducing costs and waste.</li>
+          <li>Engage with existing customers and reach new ones to enhance competitive advantage.</li>
           <li>Protect and strengthen the brand and reputation while building public trust.</li>
           <li>Ensure the long-term viability and success of the business.</li>
+          <li>Address regulatory challenges and opportunities.</li>
       </ul>
+
+      <h3>A Progressive Strategy Toward a Green Industry</h3>
+      <p>Business ethics demand concrete action through responsible governance. Companies of all sizes, ages, and sectors are moving forward on the path to sustainability by improving performance and reducing their resource footprint. Companies that are serious about implementing these ethical values take the following strategic steps:</p>
+      <ul>
+          <li>Address sustainability in a coordinated, integrated, and formal manner, rather than in an ad hoc, disconnected, and informal way.</li>
+          <li>Focus on improving competitiveness and revenue rather than solely on cost-cutting, risk reduction, and efficiency gains.</li>
+          <li>Using innovation, scenario planning, and strategic analysis to go beyond compliance.</li>
+          <li>Integrating sustainability across all business functions.</li>
+          <li>Focusing more on the long term.</li>
+          <li>Working collaboratively with external stakeholders.</li>
+      </ul>
+
+      <h3>Key Benefits</h3>
+      <p>This commitment to environmental responsibility yields very tangible results. Sustainable manufacturing practices have proven to benefit the industry in the following ways:</p>
+      <ul>
+          <li>Lower resource and production costs.</li>
+          <li>Lower regulatory compliance costs.</li>
+          <li>Increased sales and brand awareness.</li>
+          <li>Greater access to financing and capital.</li>
+          <li>Easier employee recruitment and retention.</li>
+      </ul>
+      <p className="text-muted small"><strong>Reference:</strong> [EPA] U.S. Environmental Protection Agency. (n.d.). Sustainable Manufacturing.</p>
 
       <h2 id="labor-force" className="mt-5">4. Labor Force Changes and Upskilling</h2>
       <h3>Context and Background</h3>
-      <p>Amid the rapid pace of automation and the integration of Artificial Intelligence (AI) across various sectors, industries are facing massive disruption in their workforce structures. This phenomenon highlights the urgency of upskilling—the process of training existing employees in new, more relevant skills—as a solution to bridge the skills gap while preserving workers’ dignity.</p>
-
-      <div className="quote-card shadow-sm border-0">
-          "From a business ethics perspective, corporate responsibility is no longer limited to product innovation, but also extends to the well-being of the people working within them."
-      </div>
+      <p>Amid the rapid pace of automation and the integration of Artificial Intelligence (AI) across various sectors, industries are facing massive disruption in their workforce structures. From a business ethics perspective, corporate responsibility is no longer limited to product innovation or service efficiency, but also extends to the well-being of the people working within them. This phenomenon highlights the urgency of upskilling—the process of training existing employees in new, more relevant skills—as a solution to bridge the skills gap while preserving workers’ dignity.</p>
+      
+      <h3>The State of the Skills Gap in the Industry</h3>
+      <p>The current cyber threat and technology landscape is evolving much faster than the conventional labor market’s ability to provide ready-to-work talent. Based on data and discussions from the RSA Conference (RSAC) covered by Axios, there appears to be a significant shift in focus among industry leaders. Cybersecurity leaders are reportedly placing less emphasis on recruiting new talent and are instead more concerned about whether their current teams possess the necessary skills to address a threat landscape that has been amplified by AI.</p>
 
       <h3>Upskilling as a Key Strategy and a Moral Responsibility</h3>
       <p>Faced with these changes, companies are at an ethical crossroads: should they lay off employees whose skills are becoming obsolete and replace them with new hires, or invest in their existing workforce? The industry now recognizes that upskilling is both economically sensible and ethically necessary.</p>
+      <ul>
+          <li><strong>Keeping Pace with Machine Capabilities:</strong> Workers are required to acquire new skills in managing, monitoring, and controlling AI-based tools.</li>
+          <li><strong>Ethical Support:</strong> Industry ethics require companies not to leave their workers behind without adequate training support.</li>
+          <li><strong>Loyalty and Retention:</strong> By providing ongoing training, companies build a foundation of trust with their employees, demonstrating that humans are not simply discarded when machines take over basic tasks.</li>
+      </ul>
+
+      <h3>Ethical Dilemmas and Long-Term Risks</h3>
+      <p>Although upskilling is a positive step, this practice is not without strategic challenges that could lead to new ethical dilemmas in the realm of human resources. Industry data highlights a critical warning: the tendency for companies to deprioritize the recruitment of new workers in order to focus entirely on upskilling internal staff may actually exacerbate the overall labor shortage in the long term. If the industry stops opening its doors to entry-level workers, the labor ecosystem will lose the supply of the next generation of talent, which ultimately jeopardizes the industry’s own sustainability.</p>
+      <p className="text-muted small"><strong>Reference:</strong> Axios. (2025). Technology - Cyber leaders focusing on AI upskilling over hiring workers, data shows.</p>
 
       <h2 id="industry-5" className="mt-5">5. Industry 5.0 and Human-Centered Innovation</h2>
       <h3>Context and Background</h3>
-      <p>Technological advancements often raise ethical concerns that humans will eventually be replaced by machines. However, the Industry 5.0 paradigm serves as a moral and strategic correction to the blind automation of the previous era. In this model, technology is designed not to replace workers, but to complement, empower, and work in harmony with them.</p>
+      <p>Technological advancements often raise ethical concerns that humans will eventually be replaced by machines. However, the Industry 5.0 paradigm serves as a moral and strategic correction to the blind automation of the previous era (Industry 4.0). According to a study in the journal Processes (MDPI), Industry 5.0 no longer prioritizes machine efficiency alone, but rather emphasizes human-centered innovation. In this model, technology is designed not to replace workers, but to complement, empower, and work in harmony with them.</p>
+      
+      <h3>A Paradigm Shift and Ethical Imperatives</h3>
+      <p>The Fourth Industrial Revolution, which focuses on artificial intelligence, the Internet of Things (IoT), and advanced robotics, often views human workers as a “cost” that must be minimized in the name of efficiency. Ethically speaking, this approach poses an existential threat to the well-being of the workforce. Industry 5.0 shifts this perspective. The main drivers of this shift include:</p>
+      <ul>
+          <li><strong>Repositioning Human Value:</strong> Recognizing that machines excel at precision and repetitive tasks, but humans have an absolute advantage in creativity, complex problem-solving, and emotional intelligence.</li>
+          <li><strong>The Demand for Personalization:</strong> Modern markets demand highly customized products (mass personalization), which can only be achieved through human creativity supported by advanced technology.</li>
+          <li><strong>Worker Well-being:</strong> Shifting the perspective from “workers serving machines” to “technology serving workers” to ensure a safer and more inclusive work environment.</li>
+      </ul>
 
       <h3>A Transition Strategy Toward Human-Centered Innovation</h3>
+      <p>To implement Industry 5.0 ethics, companies must redesign their work architecture. Human-centered innovation implementation strategies include:</p>
       <ul>
-          <li><strong>Human-Machine Collaboration (Cobots):</strong> Integrating Collaborative Robots specifically designed to work alongside humans in the same space.</li>
+          <li><strong>Human-Machine Collaboration (Cobots):</strong> Integrating Collaborative Robots (Cobots) specifically designed to work alongside humans in the same space, taking over dangerous or physically demanding tasks while humans focus on supervision and design.</li>
           <li><strong>Ethical Tech Design:</strong> Developing algorithmic systems and artificial intelligence that respect human rights, protect workers’ data privacy, and are free from harmful biases.</li>
-          <li><strong>Participatory Approach:</strong> Directly involving workers in the design and implementation of new technologies on the factory floor.</li>
+          <li><strong>Participatory Approach:</strong> Directly involving workers in the design and implementation of new technologies on the factory floor, so that innovation does not feel imposed from the top down.</li>
       </ul>
+
+      <h3>Key Benefits</h3>
+      <p>Integrating ethical values through human-centered innovation in Industry 5.0 offers multidimensional benefits:</p>
+      <ul>
+          <li><strong>Greater Product Innovation:</strong> The synergy between human creativity and machine speed results in products with high added value.</li>
+          <li><strong>Improved Safety and Ergonomics:</strong> The risk of physical injury and mental exhaustion (burnout) decreases dramatically as technology takes over inhuman workloads.</li>
+          <li><strong>Industrial Resilience:</strong> Companies become more adaptive to crises or sudden market changes, as they rely on the flexibility of human thinking, not just rigid machines.</li>
+          <li><strong>Advantage in Attracting Talent:</strong> Companies that humanize their workforce through technology will find it much easier to attract and retain the best talent in the market.</li>
+      </ul>
+      <p className="text-muted small"><strong>Reference:</strong> Processes (MDPI). (n.d.). Industry 5.0 and Human-Centered Innovation.</p>
 
       <h2 id="conclusion" className="mt-5">Conclusion</h2>
       <p>In summary, the transition from automation to augmentation marks a profound shift towards human-centric technological evolution. Balancing innovation with ethics—ranging from sustainable manufacturing to proactive workforce upskilling—ensures that as our industries evolve, they do so not at the expense of human dignity or the environment, but in harmonious synergy with both.</p>
