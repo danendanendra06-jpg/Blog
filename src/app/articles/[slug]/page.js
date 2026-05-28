@@ -29,8 +29,8 @@ export default async function ArticlePage({ params }) {
 
   return (
     <>
-      <article className="py-5 bg-white">
-        <div className="container py-4" style={{ maxWidth: '800px' }}>
+      <article className="py-5">
+        <div className="container py-4 px-4 px-md-5 glass-panel rounded-4 mt-4 mb-5" style={{ maxWidth: '900px' }}>
           
           <header className="mb-5 text-center">
             <span className="badge bg-primary bg-opacity-10 text-primary mb-3 px-3 py-2 rounded-pill">

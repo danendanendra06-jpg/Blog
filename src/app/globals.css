@@ -1,8 +1,22 @@
 /* Override or add specific custom styles if Bootstrap isn't enough */
 body {
-  font-family: inherit; /* Handled by Next.js Inter font in layout */
-  background-color: #fafafa;
-  color: #111827;
+  font-family: inherit;
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(210,100%,94%,1) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(220,50%,90%,1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, hsla(214,100%,91%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(210,50%,96%,1) 0px, transparent 50%);
+  background-attachment: fixed;
+  color: #0f172a;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
 }
 
 h1, h2, h3, h4, h5, h6 {

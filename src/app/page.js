@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section id="home" className="py-5 bg-white border-bottom">
+      <section id="home" className="py-5 border-bottom border-light">
         <div className="container py-5">
           <div className="row align-items-center">
             <div className="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
@@ -35,7 +35,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-5 bg-light">
+      <section id="about" className="py-5">
         <div className="container py-5">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
@@ -56,7 +56,7 @@ export default function Home() {
       </section>
 
       {/* Articles Section */}
-      <section id="articles" className="py-5 bg-white border-top border-bottom">
+      <section id="articles" className="py-5 border-top border-bottom border-light">
         <div className="container py-5">
           <div className="text-center mb-5">
             <h2 className="fw-bold">Latest <span className="text-primary">Articles</span></h2>
@@ -66,7 +66,7 @@ export default function Home() {
           <div className="row g-4">
             {articles.map((article) => (
               <div className="col-md-4" key={article.id}>
-                <div className="card h-100 border-0 shadow-sm blog-card overflow-hidden">
+                <div className="card h-100 border-0 shadow-sm blog-card overflow-hidden glass-panel">
                   <img src={article.imageUrl} alt={article.title} className="card-img-top" style={{ height: '200px', objectFit: 'cover' }} />
                   <div className="card-body d-flex flex-column p-4">
                     <span className="badge bg-primary bg-opacity-10 text-primary mb-3 align-self-start px-3 py-2 rounded-pill">
@@ -90,7 +90,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-5 bg-light">
+      <section id="contact" className="py-5">
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-lg-6">
@@ -98,19 +98,19 @@ export default function Home() {
                 <h2 className="fw-bold">Reach <span className="text-primary">Out</span></h2>
                 <p className="text-muted">Have a question or want to collaborate? Send a message.</p>
               </div>
-              <div className="card border-0 shadow-sm p-4 p-md-5">
+              <div className="card border-0 p-4 p-md-5 glass-panel">
                 <form onSubmit={handleSubmit}>
                   <div className="mb-3">
                     <label htmlFor="name" className="form-label fw-semibold">Your Name</label>
-                    <input type="text" className="form-control form-control-lg bg-light" id="name" placeholder="John Doe" required />
+                    <input type="text" className="form-control form-control-lg bg-white bg-opacity-75" id="name" placeholder="John Doe" required />
                   </div>
                   <div className="mb-3">
                     <label htmlFor="email" className="form-label fw-semibold">Your Email</label>
-                    <input type="email" className="form-control form-control-lg bg-light" id="email" placeholder="john@example.com" required />
+                    <input type="email" className="form-control form-control-lg bg-white bg-opacity-75" id="email" placeholder="john@example.com" required />
                   </div>
                   <div className="mb-4">
                     <label htmlFor="message" className="form-label fw-semibold">Your Message</label>
-                    <textarea className="form-control form-control-lg bg-light" id="message" rows="4" placeholder="How can we help you?" required></textarea>
+                    <textarea className="form-control form-control-lg bg-white bg-opacity-75" id="message" rows="4" placeholder="How can we help you?" required></textarea>
                   </div>
                   <button type="submit" className="btn btn-primary btn-lg w-100 fw-bold">Send Message</button>
                 </form>
