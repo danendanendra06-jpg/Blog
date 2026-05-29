@@ -1,6 +1,6 @@
 /* Override or add specific custom styles if Bootstrap isn't enough */
 body {
-  font-family: inherit;
+  font-family: 'Inter', sans-serif;
   background-color: #f8fafc;
   background-image: 
     radial-gradient(at 0% 0%, hsla(210,100%,94%,1) 0px, transparent 50%),
